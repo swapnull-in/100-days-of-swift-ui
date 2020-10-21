@@ -36,3 +36,7 @@ var favouriteShow = "Breaking Bad"
 favouriteShow = "Sarabhai vs Sarabhai"
 favouriteShow = "Ted Lasso"
 
+var meaningOfLife = 42
+//meaningOfLife = "Fouty Two"
+
+
