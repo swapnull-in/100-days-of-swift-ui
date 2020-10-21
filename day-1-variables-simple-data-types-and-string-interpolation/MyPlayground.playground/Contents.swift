@@ -48,3 +48,7 @@ Gang aft agley
 """
 
 
+var myInt = 1
+var myDouble = 1.0
+//var total = myInt + myDouble?
+
