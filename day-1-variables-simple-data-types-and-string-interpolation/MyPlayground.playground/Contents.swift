@@ -32,3 +32,7 @@ let height: Double = 1.73
 let bluntRocks: Bool = true
 
 
+var favouriteShow = "Breaking Bad"
+favouriteShow = "Sarabhai vs Sarabhai"
+favouriteShow = "Ted Lasso"
+
