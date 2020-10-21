@@ -24,3 +24,11 @@ var str3 = "Your score was \(score)"
 var results = "Your test results are here: \(str3)"
 
 let taylor = "swift"
+
+
+let album: String = "Once Upon a Mind"
+let year: Int = 2019
+let height: Double = 1.73
+let bluntRocks: Bool = true
+
+
