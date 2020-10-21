@@ -19,4 +19,7 @@ lines
 var pi = 3.141
 var awesome = true
 
+var score = 85
+var str3 = "Your score was \(score)"
+var results = "Your test results are here: \(str3)"
 
