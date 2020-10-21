@@ -56,3 +56,4 @@ var myDouble = 1.0
 var city = "Cardiff"
 var message = "Welcome to \(city)"
 
+var percentage: Double = 99
