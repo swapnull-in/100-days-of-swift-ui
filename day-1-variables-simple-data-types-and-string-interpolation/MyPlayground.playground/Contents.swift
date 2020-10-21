@@ -52,3 +52,7 @@ var myInt = 1
 var myDouble = 1.0
 //var total = myInt + myDouble?
 
+
+var city = "Cardiff"
+var message = "Welcome to \(city)"
+
