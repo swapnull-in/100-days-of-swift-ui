@@ -1,6 +1,6 @@
-# 100-days-of-swift
+# [100 Days of Swift](https://www.hackingwithswift.com/100)
 
-Source: # [Hacking with Swift](https://www.hackingwithswift.com/100)
+## [Hacking with Swift](https://www.hackingwithswift.com)
 
 ### Days 1-12: Introduction to Swift
 The first 12 days provide a gentle warm up for your Swift learning. You’ll watch about a selection of one-minute videos every day, and complete short quizzes about each of those videos.
