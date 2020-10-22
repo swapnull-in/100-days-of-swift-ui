@@ -64,3 +64,17 @@ var numbers = Set<Int>()
 var scores = Dictionary<String, Int>()
 var resuls = Array<Int>()
 
+
+//Enumeration
+var result = "Failure"
+var result2 = "Failed"
+var result3 = "Fail"
+
+enum Result {
+    case success
+    case failure
+}
+
+var result4 = Result.failure
+
+
