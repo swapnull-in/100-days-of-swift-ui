@@ -66,15 +66,28 @@ var resuls = Array<Int>()
 
 
 //Enumeration
-var result = "Failure"
-var result2 = "Failed"
-var result3 = "Fail"
+let result = "Failure"
+let result2 = "Failed"
+let result3 = "Fail"
 
 enum Result {
     case success
     case failure
 }
 
-var result4 = Result.failure
+let result4 = Result.failure
+
+//Enum associated values
+
+enum Activiy {
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+
+let talking = Activiy.talking(topic: "Cricket")
+
+
 
 
