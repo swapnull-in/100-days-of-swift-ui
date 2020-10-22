@@ -19,9 +19,17 @@ name.0
 name.first
 //name.age = 30
 
+
 let address = (house: 303, wing: "D", society: "Kutir", city: "Kalyan")
-var set = Set(["engineer", "doctor", "lawyer"])
-var cousins = ["Swapnil", "Amita", "Tejaswee", "Aniket", "Harshal", "Bhavika"]
+let set = Set(["engineer", "doctor", "lawyer"])
+let cousins = ["Swapnil", "Amita", "Tejaswee", "Aniket", "Harshal", "Bhavika"]
 
 
+
+let heights = [
+    "Taylor Swift" : 1.78,
+    "Ed Sheeran" : 1.73
+]
+
+heights["Taylor Swift"]
 
