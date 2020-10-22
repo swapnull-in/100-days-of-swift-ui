@@ -33,3 +33,12 @@ let heights = [
 
 heights["Taylor Swift"]
 
+
+
+let favouriteIceCream = [
+    "Swapnil" : "Vanilla",
+    "Amita" : "Chocolate"
+]
+
+favouriteIceCream["Swapnil"]
+favouriteIceCream["Tejaswee", default: "Unknown"]
