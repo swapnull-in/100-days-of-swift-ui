@@ -78,5 +78,12 @@ if age1 > 18 || age2 > 18 {
     print("At least one is over 18")
 }
 
+//The ternary operator
+
+let firstCard1 = 11
+let secondCard1 = 10
+
+print(firstCard1 == secondCard1 ? "Cards are the same" : "Cards are different")
+
 
 
