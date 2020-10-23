@@ -85,5 +85,19 @@ let secondCard1 = 10
 
 print(firstCard1 == secondCard1 ? "Cards are the same" : "Cards are different")
 
+//Switch statements
 
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+    fallthrough
+default:
+    print("Enjoy your day!")
+}
 
