@@ -22,3 +22,17 @@ for _ in 1...5 {
     print("play")
 }
 
+
+//While loops
+var number = 1
+
+while number <= 20 {
+    print(number)
+    number += 1
+}
+
+print("Ready or not, here I come!")
+
+
+
+
