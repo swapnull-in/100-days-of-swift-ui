@@ -17,3 +17,13 @@ func printHelp() {
 }
 
 printHelp()
+
+//Accepting parameters
+
+func square(number: Int){
+    print(number*number)
+}
+
+square(number: 8)
+
+
