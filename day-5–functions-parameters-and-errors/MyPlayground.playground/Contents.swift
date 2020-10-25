@@ -94,5 +94,15 @@ func checkPassword(_ password: String) throws -> Bool {
     return true
 }
  
+//Running throwing functions
+
+do {
+    
+    try checkPassword("password")
+    print("That password is good!")
+    
+} catch {
+    print("You can't use that password.")
+}
 
 
