@@ -28,3 +28,18 @@ let message = drivingWithReturn("London")
 print(message)
 
 
+//Closures as parameters
+
+let driving2 = {
+    print("I'm driving my car")
+}
+
+func travel(action: () -> Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+travel(action: driving2)
+
+
