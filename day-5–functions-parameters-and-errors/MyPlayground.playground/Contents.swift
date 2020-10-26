@@ -105,4 +105,13 @@ do {
     print("You can't use that password.")
 }
 
+//inout parameters
+
+func doubleInPlace(number: inout Int){
+    number *= 2
+}
+
+var myNum = 20
+doubleInPlace(number: &myNum)
+
 
