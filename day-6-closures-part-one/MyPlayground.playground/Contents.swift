@@ -18,4 +18,13 @@ let driving1 = { (place: String) in
 
 driving1("London")
 
+//Returning values from a closure
+
+let drivingWithReturn = { (place: String) -> String in
+    return "I'm going to \(place) in my car"
+}
+
+let message = drivingWithReturn("London")
+print(message)
+
 
