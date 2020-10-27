@@ -67,3 +67,20 @@ result1("London")
 let result2 = travel()("London")
 
 
+//Capturing values
+
+func travel3 () -> (String) -> Void {
+    var counter = 1
+    
+    return {
+        print("\(counter) I'm going to \($0) in my car")
+        counter += 1
+    }
+}
+
+let resul3 = travel3()
+resul3("London")
+resul3("London")
+resul3("London")
+
+
