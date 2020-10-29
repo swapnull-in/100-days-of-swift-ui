@@ -38,7 +38,7 @@ struct FamilyTree {
     }
 }
 
-struct Person {
+struct Person2 {
     var name : String
     lazy var familyTree = FamilyTree()
     
@@ -47,7 +47,7 @@ struct Person {
     }
 }
 
-var ed = Person(name: "Ed")
+var ed = Person2(name: "Ed")
  
 //Static properties and methods
 
@@ -66,4 +66,20 @@ var taylor = Student(name: "Taylor")
 
 print(Student.classSize)
 
+//Access control
+
+struct Person {
+    private var id: String
+    
+    init(id: String) {
+        self.id = id
+    }
+    
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
+
+var jason = Person(id: "1234")
+var tom = Person(id: "5678")
 
