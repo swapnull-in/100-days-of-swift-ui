@@ -48,4 +48,22 @@ struct Person {
 }
 
 var ed = Person(name: "Ed")
+ 
+//Static properties and methods
+
+struct Student {
+    static var classSize = 0
+    var name: String
+    
+    init(name: String){
+        self.name = name
+        Student.classSize += 1
+    }
+}
+
+var mark = Student(name: "Mark")
+var taylor = Student(name: "Taylor")
+
+print(Student.classSize)
+
 
