@@ -19,7 +19,7 @@ user.username = "Swapnull"
 
 //Referring to the current instance
 
-struct Person {
+struct Person1 {
     var name : String
     
     init(name: String){
@@ -28,6 +28,24 @@ struct Person {
     }
 }
 
-var person = Person(name: "Swapnil")
+var person = Person1(name: "Swapnil")
 
+//Lazy properties
+
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+
+struct Person {
+    var name : String
+    lazy var familyTree = FamilyTree()
+    
+    init(name: String){
+        self.name = name
+    }
+}
+
+var ed = Person(name: "Ed")
 
