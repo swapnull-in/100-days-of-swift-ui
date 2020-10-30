@@ -14,12 +14,12 @@ class Dog1 {
     }
 }
 
-var poppy = Dog1(name: "Poppy", breed: "Poodle")
+var poppy1 = Dog1(name: "Poppy", breed: "Poodle")
 
 
 //Class inheritance
 
-class Dog {
+class Dog2 {
     var name: String
     var breed: String
     
@@ -29,11 +29,47 @@ class Dog {
     }
 }
 
-class Poodle: Dog {
+class Poodle1: Dog2 {
     
     init(name: String) {
         super.init(name: name, breed: "Poodle")
     }
     
 }
+
+//Overriding methods
+
+class Dog {
+    var name: String
+    var breed: String
+    
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+    
+    func makeNoise(){
+        print("Woof!")
+    }
+}
+
+class Poodle: Dog {
+    
+    init(name: String) {
+        super.init(name: name, breed: "Poodle")
+    }
+    
+    override func makeNoise() {
+        print("Yip!")
+    }
+    
+}
+
+var poppy2 = Poodle(name: "Poppy")
+poppy2.makeNoise()
+
+
+
+
+
 
