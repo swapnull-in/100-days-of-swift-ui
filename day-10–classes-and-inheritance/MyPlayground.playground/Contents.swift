@@ -68,7 +68,21 @@ class Poodle: Dog {
 var poppy2 = Poodle(name: "Poppy")
 poppy2.makeNoise()
 
+//Final classes
 
+final class Dog3 {
+    var name: String
+    var breed: String
+    
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+    
+    func makeNoise(){
+        print("Woof!")
+    }
+}
 
 
 
