@@ -122,5 +122,17 @@ for _ in 1...3 {
     print(person.name)
 }
 
+//Mutability
+
+class Singer1 {
+    let name = "Taylor Swift"
+}
+
+let taylor = Singer1()
+print(taylor.name)
+
+//taylor.name = "Ed Sheeran"
+
+//print(taylor.name)
 
 
