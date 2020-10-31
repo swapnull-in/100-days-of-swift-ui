@@ -4,17 +4,17 @@ var str = "Day 11 – protocols, extensions, and protocol extensions"
 
 //Protocols
 
-protocol Identifiable {
-    var id: String { get set }
-}
-
-struct User: Identifiable {
-    var id: String
-}
-
-func displayID(thing: Identifiable){
-    print("My ID is \(thing.id)")
-}
+//protocol Identifiable {
+//    var id: String { get set }
+//}
+//
+//struct User: Identifiable {
+//    var id: String
+//}
+//
+//func displayID(thing: Identifiable){
+//    print("My ID is \(thing.id)")
+//}
 
 //Protocol inheritance
 
@@ -66,5 +66,25 @@ extension Collection {
 
 pythons.summarize()
 beatles.summarize()
+
+//Protocol-oriented programming
+
+protocol Identifiable {
+    var id: String { get set }
+    func identify()
+}
+
+extension Identifiable {
+    func identify() {
+        print("My ID is \(id).")
+    }
+}
+
+struct User: Identifiable {
+    var id: String
+}
+
+var user = User(id: "swapnull")
+user.identify()
 
 
