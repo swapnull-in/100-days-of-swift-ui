@@ -32,4 +32,20 @@ protocol HasVacation {
 
 protocol Employee : Payable, NeedsTraining, HasVacation {}
 
+//Extensions
+
+extension Int {
+    func squared() -> Int {
+        return self * self
+    }
+}
+
+let number = 8
+print(number.squared())
+
+extension Int {
+    var isEven: Bool {
+        return self % 2 == 0
+    }
+}
 
