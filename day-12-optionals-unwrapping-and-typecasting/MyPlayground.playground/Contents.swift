@@ -17,3 +17,19 @@ if let unwrapped = name {
 }else {
     print("Missing Name")
 }
+
+//Unwrapping with guard
+
+func greet(_ name: String?){
+    guard let unwrapped = name else {
+        print("You didn't provide a name!")
+        return
+    }
+    
+    print("Hello \(unwrapped)")
+}
+
+greet(nil)
+greet("Swapnil")
+
+
