@@ -32,4 +32,11 @@ func greet(_ name: String?){
 greet(nil)
 greet("Swapnil")
 
+//Force unwrapping
+
+var data = "5"
+var num = Int(data)!
+
+
+
 
