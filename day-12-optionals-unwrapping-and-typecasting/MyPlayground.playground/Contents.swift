@@ -41,6 +41,19 @@ var num = Int(data)!
 
 let age1: Int! = nil
 
+//Nil coalescing
+
+func username(for id: Int) -> String? {
+    if id == 1 {
+        return "Tylor Swift"
+    }else {
+        return nil
+    }
+}
+
+let name1 = username(for: 15) ?? "Anonymous"
+
+
 
 
 
