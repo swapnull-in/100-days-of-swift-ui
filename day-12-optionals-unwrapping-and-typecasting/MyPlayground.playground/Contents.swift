@@ -37,6 +37,10 @@ greet("Swapnil")
 var data = "5"
 var num = Int(data)!
 
+//Implicitly unwrapped optionals
+
+let age1: Int! = nil
+
 
 
 
