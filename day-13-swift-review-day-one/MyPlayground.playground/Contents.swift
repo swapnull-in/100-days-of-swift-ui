@@ -95,5 +95,23 @@ both1 += ["Everything has Changed"]
 
 print(both1)
 
+//Dictionaries
+
+//var person = ["Taylor", "Alison", "Swift", "December", "taylorswift.com"]
+
+var person = [
+                "first": "Taylor",
+                "middle": "Alison",
+                "last": "Swift",
+                "month": "December",
+                "website": "taylorswift.com"
+            ]
+
+    person["middle"]
+    person["month"]
+
+
+
+
 
 
