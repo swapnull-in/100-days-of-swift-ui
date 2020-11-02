@@ -111,7 +111,24 @@ var person = [
     person["month"]
 
 
+//Conditional statements
 
+var action: String
+var person1 = "hater"
 
+if person1 == "hater" {
+    action = "hate"
+} else if person1 == "player" {
+    action = "play"
+} else {
+    action = "cruise"
+}
 
+var action2: String
+var stayOutTooLate2 = true
+var nothingInBrain2 = true
+
+if stayOutTooLate2 && nothingInBrain2 {
+    action2 = "cruise"
+}
 
