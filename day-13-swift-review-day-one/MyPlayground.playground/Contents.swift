@@ -73,4 +73,27 @@ var name4 = "Tim McGraw"
 
 "Your age is \(age) and in another \(age) years you will be \(age * 2)"
 
+//Arrays
+
+var evenNumbers = [2, 4, 6, 8]
+var songs: [Any] = ["Shake it Off", "You Belong with Me", "Back to December", 3]
+
+songs[0]
+songs[1]
+songs[2]
+
+type(of: songs)
+
+var songs1 = [String]()
+//songs1[0] = "Shake it Off"
+
+var songs2 = ["Shake it Off", "You Belong with Me", "Back to December"]
+var songs3 = ["Ashes of Eden", "I Will Not Bow", "Bood"]
+
+var both1 = songs2 + songs3
+both1 += ["Everything has Changed"]
+
+print(both1)
+
+
 
