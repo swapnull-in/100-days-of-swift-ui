@@ -64,5 +64,13 @@ var stayOutTooLate1 = true
 stayOutTooLate1
 !stayOutTooLate1
 
+//String interpolation
+
+var name4 = "Tim McGraw"
+"Your name is \(name4)"
+
+"Your name is \(name), your age is \(age) and your latitude is \(latitude)"
+
+"Your age is \(age) and in another \(age) years you will be \(age * 2)"
 
 
