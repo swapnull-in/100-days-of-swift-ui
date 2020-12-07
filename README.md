@@ -1,8 +1,8 @@
-# [100 Days of Swift](https://www.hackingwithswift.com/100)
+# [100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 
 ## [Hacking with Swift](https://www.hackingwithswift.com)
 
-### Days 1-12: Introduction to Swift
+### Days 1-12: Introduction to Swift 
 The first 12 days provide a gentle warm up for your Swift learning. You’ll watch about a selection of one-minute videos every day, and complete short quizzes about each of those videos.
 
 * Day 1 – variables, simple data types, and string interpolation
@@ -27,191 +27,157 @@ You just learned a lot about Swift in only 12 days, so before we continue it's i
 * Day 15 – Swift review, day three
  
 
-### Days 16-22: Starting iOS
-Now that you’ve mastered the basics of Swift, in these days you’ll start building real iOS apps using what you learned.
+### Days 16-24: Starting SwiftUI
+Now that you’ve mastered the basics of Swift, in these days you’ll start building real SwiftUI apps using what you learned.
 
 * Day 16 – Project 1, part one
 * Day 17 – Project 1, part two
 * Day 18 – Project 1, part three
-* Day 19 – Project 2, part one
-* Day 20 – Project 2, part two
-* Day 21 – Project 2, part three
-* Day 22 – Project 3
+* Day 19 – Challenge day
+* Day 20 – Project 2, part one
+* Day 21 – Project 2, part two
+* Day 22 – Project 2, part three
+* Day 23 – Project 3, part one
+* Day 24 – Project 3, part two
  
 
-### Day 23: Consolidation II
+### Day 25: Consolidation II
 In the last few days we covered some of the fundamentals of iOS development, and before we move on to the next set of projects it’s important to take a step back and review what you’ve learned.
 
-* Day 23 – Milestone: Projects 1-3
+* Day 25 – Milestone: Projects 1-3
  
 
-### Days 24-31: Web views, user input, and Auto Layout
-The next three projects we’re looking at will push your iOS skills further as you create some user interface in code, manage table views more carefully, and get some experience with closures.
+### Days 26-34: Expanding your skills
+In these next three projects we’re going to develop your SwiftUI skills in new directions, while also giving you chance to practice the fundamentals.
 
-* Day 24 – Project 4, part one
-* Day 25 – Project 4, part two
-* Day 26 – Project 4, part three
-* Day 27 – Project 5, part one
-* Day 28 – Project 5, part two
-* Day 29 – Project 5, part three
-* Day 30 – Project 6, part one
-* Day 31 – Project 6, part two
+* Day 26 – Project 4, part one
+* Day 27 – Project 4, part two
+* Day 28 – Project 4, part three
+* Day 29 – Project 5, part one
+* Day 30 – Project 5, part two
+* Day 31 – Project 5, part three
+* Day 32 – Project 6, part one
+* Day 33 – Project 6, part two
+* Day 34 – Project 6, part three
  
 
-### Day 32: Consolidation III
-You’ve learned about WebKit, UIAlertController, Auto Layout, and more – some more fundamentals of iOS development. Before we continue on to more projects, let’s take a moment to review what you’ve learned.
+### Day 35: Consolidation III
+Now that your SwiftUI skills are starting to solidify, it’s time to review all the new things we’ve covered and get busy with another project all of your own.
 
-* Day 32 – Milestone: Projects 4-6
+* Day 35 – Milestone: Projects 4-6
  
 
-### Days 33-40: Codable, buttons, and GCD
-The next three projects we’ll be building projects where you meet some of the most important topics in iOS development: working with data from the internet, and taking advantage of the raw power of iOS devices. Of course, you’ll also be making useful products along the way!
+### Days 36-46: Scaling up to bigger apps
+Your core SwiftUI skills are strong, so it’s time to push past the basics and start building bigger apps.
 
-* Day 33 – Project 7, part one
-* Day 34 – Project 7, part two
-* Day 35 – Project 7, part three
-* Day 36 – Project 8, part one
-* Day 37 – Project 8, part two
-* Day 38 – Project 8, part three
-* Day 39 – Project 9, part one
-* Day 40 – Project 9, part two
+* Day 36 – Project 7, part one
+* Day 37 – Project 7, part two
+* Day 38 – Project 7, part three
+* Day 39 – Project 8, part one
+* Day 40 – Project 8, part two
+* Day 41 – Project 8, part three
+* Day 42 – Project 8, part four
+* Day 43 – Project 9, part one
+* Day 44 – Project 9, part two
+* Day 45 – Project 9, part three
+* Day 46 – Project 9, part four
  
 
-### Day 41: Consolidation IV
-You’ve tackled some really big projects these last few days, not least learning about building a user interface in code and running code in background threads. It’s time to take a moment to review what you’ve learned.
+### Days 47-48: Consolidation IV
+You’ve tackled some heavyweight skills now, so before we move on it’s time to review what has been covered, go into detail on a handful of topics, and face a fresh challenge.
 
-* Day 41 – Milestone: Projects 7-9
+* Day 47 – Milestone: Projects 7-9
+* Day 48 – Expanding your horizons
  
 
-### Days 42-49: A whole new world
-The next three projects we’ll be making are markedly different from the previous 9 – you’ll learn about making grids rather than tables, learn how to make high-performance 2D games using SpriteKit, and, at last, learn how to save user data.
+### Days 49-59: Focus on data
+In these projects we’re going to start looking more carefully at how we can send, retrieve, and store data in our SwiftUI apps.
 
-* Day 42 – Project 10, part one
-* Day 43 – Project 10, part two
-* Day 44 – Project 10, part three
-* Day 45 – Project 11, part one
-* Day 46 – Project 11, part two
-* Day 47 – Project 11, part three
-* Day 48 – Project 12, part one
-* Day 49 – Project 12, part two
+* Day 49 – Project 10, part one
+* Day 50 – Project 10, part two
+* Day 51 – Project 10, part three
+* Day 52 – Project 10, part four
+* Day 53 – Project 11, part one
+* Day 54 – Project 11, part two
+* Day 55 – Project 11, part three
+* Day 56 – Project 11, part four
+* Day 57 – Project 12, part one
+* Day 58 – Project 12, part two
+* Day 59 – Project 12, part three
  
 
-### Days 50-51: Consolidation V
-Now that you have conquered UICollectionViewController and Codable, it’s time to pause for a day and review what you learned – while also tackling a fresh challenge.
+### Days 60-61: Consolidation V
+You’ve learned about data, data, and some more data, so it’s time to pause and reflect on what was covered before tackling another new challenge.
 
-* Day 50 – Milestone: Projects 10-12
-* Day 51 – Expanding your horizons
+* Day 60 – Milestone: Projects 10-12
+* Day 61 – Time for Core Data
  
 
-### Days 52-59: Images and animation
-The next three projects we’ll be making move into the realm of richer user interfaces – you’ll learn about manipulating images using Core Image, animation views, and more.
+### Days 62-76: Views and view controllers
+In these projects the difficulty starts to ramp up as we look at how you integrate code from frameworks outside of SwiftUI, including UIKit and MapKit.
 
-* Day 52 – Project 13, part one
-* Day 53 – Project 13, part two
-* Day 54 – Project 13, part three
-* Day 55 – Project 14, part one
-* Day 56 – Project 14, part two
-* Day 57 – Project 15, part one
-* Day 58 – Project 15, part two
+* Day 62 – Project 13, part one
+* Day 63 – Project 13, part two
+* Day 64 – Project 13, part three
+* Day 65 – Project 13, part four
+* Day 66 – Project 13, part five
+* Day 67 – Project 13, part six
+* Day 68 – Project 14, part one
+* Day 69 – Project 14, part two
+* Day 70 – Project 14, part three
+* Day 71 – Project 14, part four
+* Day 72 – Project 14, part five
+* Day 73 – Project 14, part six
+* Day 74 – Project 15, part one
+* Day 75 – Project 15, part two
+* Day 76 – Project 15, part three
  
 
-### Day 59: Consolidation VI
-We’ve covered some hugely important iOS technologies that you’ll be relying on time and time again, so let’s take a brief pause to recap what you’ve learned.
+### Days 77-78: Consolidation VI
+You’ve had a difficult couple of projects as we tackled various parts of UIKit and SwiftUI integration, so let’s pause and review what was learned.
 
-* Day 59 – Milestone: Projects 13-15
+* Day 77 – Milestone: Projects 13-15
+* Day 78 – Time for MapKit
  
 
-### Days 60-65: Maps and bugs
-In the next three projects we’ll be edging a little further away from UIKit as we explore MapKit, Apple’s powerful and flexible mapping framework, then we’ll tackle a skill you’re more than ready for: debugging.
+### Days 79-94: Controlling UI flow
+In these projects we build our biggest apps yet, while also exploring more ways to let the user interact with our apps: tab bars, gestures, haptics, and more.
 
-* Day 60 – Project 16, part one
-* Day 61 – Project 16, part two
-* Day 62 – Project 17, part one
-* Day 63 – Project 17, part two
-* Day 64 – Project 18, part one
-* Day 65 – Project 18, part two
+* Day 79 – Project 16, part one
+* Day 80 – Project 16, part two
+* Day 81 – Project 16, part three
+* Day 82 – Project 16, part four
+* Day 83 – Project 16, part five
+* Day 84 – Project 16, part six
+* Day 85 – Project 16, part seven
+* Day 86 – Project 17, part one
+* Day 87 – Project 17, part two
+* Day 88 – Project 17, part three
+* Day 89 – Project 17, part four
+* Day 90 – Project 17, part five
+* Day 91 – Project 17, part six
+* Day 92 – Project 18, part one
+* Day 93 – Project 18, part two
+* Day 94 – Project 18, part three
  
 
-### Day 66: Consolidation VII
-Although these last few projects should have been nice and easy for you, it’s still worth pausing for a day to review what was learned and try out a fresh challenge.
+### Days 95: Consolidation VII
+As we approach the end of our 100 days it’s time to pause and reflect on the massive projects we’ve built, then take on a fresh app building challenge.
 
-* Day 66 – Milestone: Projects 16-18
+* Day 95 – Milestone: Projects 16-18
  
 
-### Days 67-73: Leveling up
-We’re going to tackle two tough projects back to back, but in doing so you’ll start to really be amazed at the things you can build on iOS – brace yourself!
+### Days 96-99: One last project
+In this final project we cover some last tips and techniques to help you build great apps, including how to optimize for iPad.
 
-* Day 67 – Project 19, part one
-* Day 68 – Project 19, part two
-* Day 69 – Project 19, part three
-* Day 70 – Project 20, part one
-* Day 71 – Project 20, part two
-* Day 72 – Project 21, part one
-* Day 73 – Project 21, part two
- 
-
-### Day 74: Consolidation VIII
-After two tough projects and yet another important technique, it’s time to hit the brakes for a day and double check everything is sinking in.
-
-* Day 74 – Milestone: Projects 19-21
- 
-
-### Days 75-81: Beacons and bombs
-These next three projects will start to show you just how much you’re now able to build with iOS – your skills are really starting to flourish!
-
-* Day 75 – Project 22, part one
-* Day 76 – Project 22, part two
-* Day 77 – Project 23, part one
-* Day 78 – Project 23, part two
-* Day 79 – Project 23, part three
-* Day 80 – Project 24, part one
-* Day 81 – Project 24, part two
- 
-
-### Day 82: Consolidation IX
-Your head is probably spinning with Bezier paths and iBeacons, so before we continue on with more learning it’s important to take a day to pause and reflect on what has been covered.
-
-* Day 82 – Milestone: Projects 22-24
- 
-
-### Days 83-89: Multipeer and motion
-These next three projects give you chance to go over some earlier topics again, while also introducing some new frameworks such as MultipeerConnectivity and Core Motion.
-
-* Day 83 – Project 25, part one
-* Day 84 – Project 25, part two
-* Day 85 – Project 26, part one
-* Day 86 – Project 26, part two
-* Day 87 – Project 26, part three
-* Day 88 – Project 27, part one
-* Day 89 – Project 27, part two
- 
-
-### Days 90-91: Consolidation X
-As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.
-
-* Day 90 – Milestone: Projects 25-27
-* Day 91 – Core Graphics redux
- 
-
-### Days 92-98: The Final Countdown
-These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
-
-* Day 92 – Project 28, part one
-* Day 93 – Project 28, part two
-* Day 94 – Project 29, part one
-* Day 95 – Project 29, part two
-* Day 96 – Project 29, part three
-* Day 97 – Project 30, part one
-* Day 98 – Project 30, part two
- 
-
-### Day 99: Consolidation XI
-It’s time to recap all the things you’ve learned in the last few days, and start work on a big challenge to go out with. You’ve got this!
-
-* Day 99 – Milestone: Projects 28-30
+* Day 96 – Project 19, part one
+* Day 97 – Project 19, part two
+* Day 98 – Project 19, part three
+* Day 99 – Project 19, part four
  
 
 ### Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
 
-* Day 100 – Final exam 
+* Day 100 – Final exam
+* Epilogue – What now?
